@@ -1,6 +1,7 @@
 #include <iostream>
 #include <memory>
 #include <string>
+
 class Expression {
 public:
     [[nodiscard]] virtual int Evaluate() const = 0;
